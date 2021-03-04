@@ -19,3 +19,8 @@ C:\Users\Henry\Documents\GitHub\ECS\ECS.Legacy\bin\Debug\Castle.Core.xml
 C:\Users\Henry\Documents\GitHub\ECS\ECS.Legacy\bin\Debug\NSubstitute.xml
 C:\Users\Henry\Documents\GitHub\ECS\ECS.Legacy\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Henry\Documents\GitHub\ECS\ECS.Legacy\obj\Debug\ECS.Legacy.csproj.CopyComplete
+C:\Users\Henry\Documents\GitHub\ECS\ECS.Legacy\bin\Debug\Microsoft.VisualStudio.TestPlatform.Extension.NUnit.Xml.TestLogger.dll
+C:\Users\Henry\Documents\GitHub\ECS\ECS.Legacy\bin\Debug\Microsoft.VisualStudio.TestPlatform.Extension.NUnit.Xml.TestAdapter.dll
+C:\Users\Henry\Documents\GitHub\ECS\ECS.Legacy\bin\Debug\Spekt.TestLogger.dll
+C:\Users\Henry\Documents\GitHub\ECS\ECS.Legacy\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Henry\Documents\GitHub\ECS\ECS.Legacy\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
