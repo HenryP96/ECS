@@ -11,3 +11,11 @@ C:\Users\Henry\Documents\GitHub\ECS\ECS.Legacy\bin\Debug\ECS.Legacy.pdb
 C:\Users\Henry\Documents\GitHub\ECS\ECS.Legacy\obj\Debug\ECS.Legacy.csproj.CoreCompileInputs.cache
 C:\Users\Henry\Documents\GitHub\ECS\ECS.Legacy\obj\Debug\ECS.Legacy.exe
 C:\Users\Henry\Documents\GitHub\ECS\ECS.Legacy\obj\Debug\ECS.Legacy.pdb
+C:\Users\Henry\Documents\GitHub\ECS\ECS.Legacy\obj\Debug\ECS.Legacy.csprojAssemblyReference.cache
+C:\Users\Henry\Documents\GitHub\ECS\ECS.Legacy\bin\Debug\Castle.Core.dll
+C:\Users\Henry\Documents\GitHub\ECS\ECS.Legacy\bin\Debug\NSubstitute.dll
+C:\Users\Henry\Documents\GitHub\ECS\ECS.Legacy\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Henry\Documents\GitHub\ECS\ECS.Legacy\bin\Debug\Castle.Core.xml
+C:\Users\Henry\Documents\GitHub\ECS\ECS.Legacy\bin\Debug\NSubstitute.xml
+C:\Users\Henry\Documents\GitHub\ECS\ECS.Legacy\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Henry\Documents\GitHub\ECS\ECS.Legacy\obj\Debug\ECS.Legacy.csproj.CopyComplete
