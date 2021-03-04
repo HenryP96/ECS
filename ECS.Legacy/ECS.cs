@@ -1,12 +1,12 @@
 ﻿namespace ECS.Legacy
 {
-    public class EnviromentControlSystem
+    public class EnvironmentControlSystem
     {
         private int _threshold;
         private readonly ITempSensor _tempSensor;
         private readonly IHeater _heater;
 
-        public EnviromentControlSystem(int thr, ITempSensor tempSensor, IHeater heater)
+        public EnvironmentControlSystem(int thr, ITempSensor tempSensor, IHeater heater)
         {
             SetThreshold(thr);
             _tempSensor = tempSensor;

@@ -4,7 +4,7 @@
     {
         public static void Main(string[] args)
         {
-            var ecs = new EnviromentControlSystem(28, new TempSensor(), new Heater());
+            var ecs = new EnvironmentControlSystem(28, new TempSensor(), new Heater());
 
             ecs.Regulate();
 

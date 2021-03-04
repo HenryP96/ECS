@@ -8,7 +8,7 @@ namespace ECS.Tests
     [TestFixture]
     public class Tests
     {
-        private EnviromentControlSystem uut;
+        private EnvironmentControlSystem uut;
         private IHeater heater_;
         private ITempSensor tempSensor_;
         int temp;
@@ -18,7 +18,7 @@ namespace ECS.Tests
             heater_ = Substitute.For<IHeater>();
             tempSensor_ = Substitute.For<ITempSensor>();
             temp = 28;
-            uut = new EnviromentControlSystem(temp, tempSensor_, heater_); ;
+            uut = new EnvironmentControlSystem(temp, tempSensor_, heater_);
         }
 
         [Test]
@@ -37,15 +37,17 @@ namespace ECS.Tests
         [Test]
         public void SelfTests()
         {
-            //When a specific result is needed, NSubstitute will SUCK BIG TIME
-            //Act
-            var uut2 = new EnviromentControlSystem(temp, new FakeTempSensor(), new FakeHeater());
 
             //Arrange
-            bool result = uut2.RunSelfTest();
+            tempSensor_.RunSelfTest().Returns(true);
+            bool result = uut.RunSelfTest();
 
             //Assert
-            Assert.That(result, Is.EqualTo(true));
+            Assert.Multiple(() =>
+            {
+                tempSensor_.Received().RunSelfTest();
+                heater_.Received().RunSelfTest();
+            });
         }
 
 
