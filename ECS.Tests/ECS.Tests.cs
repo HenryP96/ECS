@@ -80,5 +80,19 @@ namespace ECS.Tests
             }
         }
 
+
+        [Test]
+        public void ThresholdTest()
+        {
+            //Act
+            uut.SetThreshold(30);
+
+            //Arrange
+            int result = uut.GetThreshold();
+
+            //Assert
+            Assert.That(result, Is.EqualTo(30));
+        }
+
     }
 }
